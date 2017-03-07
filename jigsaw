@@ -47,7 +47,7 @@ if (file_exists(__DIR__.'/vendor/autoload.php')) {
 
 $cachePath = getcwd() . '/_tmp';
 $buildPath = getcwd() . '/build';
-$sourcePath = getcwd() . '/source';
+$sourcePath = getcwd() . '/views';
 $bootstrapFile = getcwd() . '/bootstrap.php';
 
 $container = new Container;
