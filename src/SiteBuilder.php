@@ -33,7 +33,7 @@ class SiteBuilder
     private function prepareDirectories($directories)
     {
         foreach ($directories as $directory) {
-            $this->prepareDirectory($directory, true);
+            $this->prepareDirectory($directory);
         }
     }
 
